@@ -9,13 +9,13 @@ and task status tracking — all managed using **localStorage** (no backend requ
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 User Verification
+### 1. User Verification
 ● On first visit, users must register by entering their **Full Name** and **Date of Birth**.
 ● Minimum age requirement is **over 10 years** to continue else show **Error**
 
-### 📂 Task Categories (Tabs)
+### 2. Task Categories (Tabs)
 ● Tasks are organized into three tabs:
   - **Todo**
   - **Completed**
@@ -23,28 +23,28 @@ and task status tracking — all managed using **localStorage** (no backend requ
 ● Users can **switch** between tabs and **move tasks** across them freely.
 ● On first visit to app.html, **Dummy tasks** are integrated using **DummyJSON API**. 
 
-### 🧾 Add Tasks with Due Dates
+### 3. Add Tasks with Due Dates
 ● While adding a new task in the **Todo** tab, users can set a **due date**.
 ● Due dates are displayed alongside tasks in the Todo list only.
 ● When a task is **moved to Completed or Archived**, its due date is hidden.
 ● If the task is moved **back to Todo**, the due date will reappear automatically.
 
-### 🔴 Overdue Task Highlighting
+### 4. Overdue Task Highlighting
 ● Tasks whose **due date has passed** are automatically marked as **overdue**.
 ● These tasks are visually highlighted with a **red border and red text** in the Todo tab for easy identification.
 
-### 🧑‍🎨 Avatar Support with LocalStorage
+### 5. Avatar Support with LocalStorage
 ● Upon login, a **default avatar** (initials-based) is generated using the **UI Avatars API**.
 ● Users can **click on the avatar** to upload a **custom image**.
 ● The uploaded avatar image is stored locally using `localStorage` and persists between sessions.
 
-### 📱 Responsive UI
+### 6. Responsive UI
 ● Fully responsive layout for **mobile**, **tablet**, and **desktop**.
 ● UI adjusts cleanly on small screens with stacked layouts and accessible controls.
 
 ---
 
-## 💡 Technologies Used
+## Technologies Used
 
 ● HTML5
 ● CSS3
@@ -54,6 +54,6 @@ and task status tracking — all managed using **localStorage** (no backend requ
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
