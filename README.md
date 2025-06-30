@@ -55,5 +55,12 @@ and task status tracking — all managed using **localStorage** (no backend requ
 ---
 
 ## Project Structure
+├── index.html    --> Login Page
+├── app.html      --> Main Todo Interface
+├── styles.css    --> Shared Stylesheet (for both index and app HTML file)
+├── index.js      --> Login & Validation Logic (JS for Login Page)
+├── app.js        --> Task App Functionality (JS for Main Todo Interface)
+└── README.md     --> Project Summary
+
 
 
