@@ -12,8 +12,8 @@ and task status tracking — all managed using **localStorage** (no backend requ
 ## Features
 
 ### 1. User Verification
-● On first visit, users must register by entering their **Full Name** and **Date of Birth**.
-● Minimum age requirement is **over 10 years** to continue else show **Error**
+- On first visit, users must register by entering their **Full Name** and **Date of Birth**.
+- Minimum age requirement is **over 10 years** to continue else show **Error**
 
 ### 2. Task Categories (Tabs)
 ● Tasks are organized into three tabs:
