@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow App</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class = "user-profile">
+            <img id = "avatar" alt = "User Avatar">
+            <span id = "user-name"></span>
+        </div>
+        <button id = "signOut">Sign Out</button>
+    </header>
+
+    <main>
+        <section class = "task-section" id = "todo">
+            <h2> Todo (<span id = "todo-count">0</span>)</h2>
+            <input type = "text" id = "new-task" placeholder="Add New Task">
+            <button id = "add-task"> Add </button>
+            <div class = "task-list" id= = "todo-list"></div>
+        </section>
+
+        <section class = "task-section" id = "completed">
+            <h2> Completed (<span id = "completed-count">0</span>)</h2>
+            <div class = "task-list" id = "completed-list"></div>
+        </section>
+
+        <section class = "task-section" id = "archived">
+            <h2> Archived (<span id = "archived-count">0</span>)</h2>
+            <div class = "task-list" id = "archived-list"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
