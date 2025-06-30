@@ -1,7 +1,7 @@
 # My-Todo-App---TaskFlow
 
 
-# 📝 TaskFlow - Personal Productivity Todo App
+# TaskFlow - Personal Productivity Todo App
 
 **TaskFlow** is a responsive, browser-based Todo application built using **HTML, CSS, and JavaScript**. It allows users to create, manage, and organize their tasks effectively. 
 This project was developed following the assignment guidelines provided by **Interview Kickstart**, and expands on them with real-world features such as due dates, avatar customization, 
